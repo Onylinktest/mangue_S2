@@ -5,9 +5,13 @@ dependencies:
   - aom=3.12.1=h00a0c3c_0
   - blas=1.0=mkl
   - bottleneck=1.4.2=py314h2b7f5b3_1
+  - brotlicffi=1.1.0.0=py314h885b0b7_0
   - bzip2=1.0.8=h2bbff1b_6
   - ca-certificates=2025.11.4=haa95532_0
   - cairo=1.18.4=he9e932c_0
+  - certifi=2025.11.12=py314haa95532_0
+  - cffi=2.0.0=py314h02ab6af_1
+  - charset-normalizer=3.4.4=py314haa95532_0
   - contourpy=1.3.1=py314h214f63a_0
   - cycler=0.11.0=pyhd3eb1b0_0
   - dav1d=1.2.1=h2bbff1b_0
@@ -21,6 +25,7 @@ dependencies:
   - harfbuzz=10.2.0=he2f9f60_1
   - icc_rt=2022.1.0=h6049295_2
   - icu=73.1=h6c2663c_0
+  - idna=3.11=py314haa95532_0
   - intel-openmp=2025.0.0=haa95532_1164
   - jpeg=9f=ha349fce_0
   - kiwisolver=1.4.8=py314h5da7b33_0
@@ -59,9 +64,11 @@ dependencies:
   - pillow=12.0.0=py314h4212202_1
   - pip=25.3=pyh0d26453_0
   - pixman=0.46.4=h4043f72_0
+  - pycparser=2.23=py314haa95532_0
   - pyparsing=3.2.0=py314haa95532_0
   - pyqt=6.9.1=py314hbb189eb_0
   - pyqt6-sip=13.10.2=py314h630b2a1_0
+  - pysocks=1.7.1=py314haa95532_1
   - python=3.14.0=h3bc0a5a_101_cp314
   - python-dateutil=2.9.0post0=py314haa95532_2
   - python-tzdata=2025.2=pyhd3eb1b0_0
@@ -73,7 +80,9 @@ dependencies:
   - qttools=6.9.2=h7e7b719_1
   - qtwebchannel=6.9.2=heb02b0b_1
   - qtwebsockets=6.9.2=heb02b0b_1
+  - requests=2.32.5=py314haa95532_1
   - scipy=1.16.3=py314h702286f_0
+  - seaborn=0.13.2=py314haa95532_3
   - setuptools=80.9.0=py314haa95532_0
   - sip=6.12.0=py314h706e071_0
   - six=1.17.0=py314haa95532_0
@@ -84,9 +93,11 @@ dependencies:
   - tornado=6.5.1=py314h827c3e9_0
   - tzdata=2025b=h04d1e81_0
   - ucrt=10.0.22621.0=haa95532_0
+  - urllib3=2.5.0=py314haa95532_0
   - vc=14.42=haa95532_5
   - vc14_runtime=14.44.35208=h4927774_10
   - vs2015_runtime=14.44.35208=ha6b5a95_10
+  - win_inet_pton=1.1.0=py314haa95532_1
   - xz=5.6.4=h4754444_1
   - zlib=1.3.1=h02ab6af_0
   - zstd=1.5.7=h56299aa_0
